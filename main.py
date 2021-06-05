@@ -129,9 +129,9 @@ if __name__ == '__main__':
     excel_filler('eur')
     eur_on_dollar()
     rows_number = int(sheet.max_row)
-    wb.save('Динамика курса за прошлый месяц.xlsx')
+    excel_name = 'Динамика курса c ' + Config.mom_st + ' по ' + Config.mom_end + '.xlsx'
+    wb.save(excel_name)
 
-    excel_file = 'Динамика курса за прошлый месяц.xlsx'
     msg_subj = "Динамика курса с " + Config.mom_st + " по " + Config.mom_end
     msg_text = declination(rows_number, ['строка','строки','строк'])
-    send_email(Config.addr_to, msg_subj, msg_text, excel_file)
+    send_email(Config.addr_to, msg_subj, msg_text, excel_name)
