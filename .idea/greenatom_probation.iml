@@ -5,6 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="crm_kvant" />
-    <orderEntry type="module" module-name="DMIP-IT_proj" />
+    <orderEntry type="module" module-name="myforstproject" />
   </component>
 </module>

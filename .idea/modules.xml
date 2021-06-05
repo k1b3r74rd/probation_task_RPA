@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../DMIP-IT_proj/.idea/DMIP-IT_proj.iml" filepath="$PROJECT_DIR$/../DMIP-IT_proj/.idea/DMIP-IT_proj.iml" />
       <module fileurl="file://$PROJECT_DIR$/../crm_kvant/.idea/crm_kvant.iml" filepath="$PROJECT_DIR$/../crm_kvant/.idea/crm_kvant.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/greenatom_probation.iml" filepath="$PROJECT_DIR$/.idea/greenatom_probation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python 3.7/01.avatar-changer/.idea/myforstproject.iml" filepath="$PROJECT_DIR$/../Python 3.7/01.avatar-changer/.idea/myforstproject.iml" />
     </modules>
   </component>
 </project>
